@@ -3,7 +3,7 @@ Hall request assigner
 
 Made for "on-the-fly" / "dynamic" hall request assignment, ie. where all hall requests are completely re-assigned every time a new request (or other event) arrives.
 
-###JSON format:
+### JSON format:
 
 Input:
 ```
@@ -34,7 +34,7 @@ Output:
 
 
 
-###Example JSON:
+### Example JSON:
 
 Input:
 ```
@@ -70,15 +70,15 @@ Output:
 Usage
 -----
 
-###Downloading:
+### Downloading:
 
 `git clone --recursive https://github.com/klasbo/hall_request_assigner`
 
-###Building:
+### Building:
 
 Run `build.sh`, or copy its one line of content and run that.
 
-###Command line arguments:
+### Command line arguments:
 
  - `-i` | `--input` : JSON input. 
    - Example: `./hall_request_assigner --input '{"hallRequests":....}'`
